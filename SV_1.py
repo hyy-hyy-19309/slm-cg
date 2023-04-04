@@ -125,10 +125,10 @@ class SV(object):
                 np.savetxt(path_test_weighting10, cg1.W10)
                 
             if save_figs == True:
-                path_test_plot1 = '{0}/{1}__{2}.jpg'.format(path_folder_last_test, "plot1", cg1.date)
-                path_test_plot2 = '{0}/{1}__{2}.jpg'.format(path_folder_last_test, "plot2", cg1.date)
-                path_test_plot3 = '{0}/{1}__{2}.jpg'.format(path_folder_last_test, "plot3", cg1.date)
-                path_test_plot4 = '{0}/{1}__{2}.jpg'.format(path_folder_last_test, "plot4", cg1.date)
+                path_test_plot1 = '{0}/{1}__{2}.png'.format(path_folder_last_test, "plot1", cg1.date)
+                path_test_plot2 = '{0}/{1}__{2}.png'.format(path_folder_last_test, "plot2", cg1.date)
+                path_test_plot3 = '{0}/{1}__{2}.png'.format(path_folder_last_test, "plot3", cg1.date)
+                path_test_plot4 = '{0}/{1}__{2}.png'.format(path_folder_last_test, "plot4", cg1.date)
                 cg1.plot1.savefig(path_test_plot1)
                 cg1.plot2.savefig(path_test_plot2)
                 cg1.plot3.savefig(path_test_plot3)
